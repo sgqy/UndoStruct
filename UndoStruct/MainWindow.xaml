@@ -1,0 +1,17 @@
+﻿<Window x:Class="UndoStruct.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UndoStruct"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="356.57">
+    <Grid>
+        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="235" VerticalAlignment="Top" Width="348"/>
+        <TextBox x:Name="textBox" TextWrapping="Wrap" Text="" Margin="188,265,86,26"/>
+        <Button x:Name="btnPush" Content="Push" Click="btnPush_Click" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="108,265,0,0"/>
+        <Button x:Name="btnUndo" Content="Undo" Click="btnUndo_Click" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="108,240,0,0"/>
+        <Button x:Name="btnRedo" Content="Redo" Click="btnRedo_Click" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="188,240,0,0"/>
+
+    </Grid>
+</Window>
